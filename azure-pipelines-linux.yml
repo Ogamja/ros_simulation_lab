@@ -10,7 +10,7 @@ trigger:
 jobs:
 - job: LinuxCI
   pool:
-    name: Default
+    name: ROS Agent
     demands:
     - Agent.OS -equals Linux
   steps:
